@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchBox {
+    background: linear-gradient(160deg, #0093E9, #80D0C7);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 27%;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 grey;
+}
+
+.card__header {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form__group {
+    border: 1px solid #80D0C7;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.form__group li {
+    background-color: #80D0C7;
+    padding: 8px 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+}
+
+.form__group li i {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.form__control {
+    /* margin-left: 5px; */
+    margin: 5px;
+    flex: 1;
+    padding: 10px;
+    padding-left: 0;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #80D0C7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    background: #57beb2;
+}
